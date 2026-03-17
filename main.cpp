@@ -5,7 +5,7 @@ int main(int argc, char *argv[]) {
     QCoreApplication a(argc, argv);
 
     Server server;
-    server.startServer(3128); // Выбираем любой свободный порт
+    server.startServer(2323); // Выбираем любой свободный порт
 
     return a.exec();
 }
